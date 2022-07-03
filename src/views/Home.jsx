@@ -28,6 +28,17 @@ export default class Home extends Component {
       })
   }
 
+  // MEMBUKA SEMUA DATA KATEGORI DENGAN AXIOS
+  componentDidMount() {
+    axios.
+      get(API_URL + "products")
+      .then(res => {
+        console.log(res);
+        const products = res.data;
+        this.setState({ products });
+      })
+  }
+
   render() {
     const { products } = this.state
     return (
