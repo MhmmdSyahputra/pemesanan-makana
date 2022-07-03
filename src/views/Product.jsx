@@ -26,6 +26,8 @@ export default class Product extends Component {
         this.setState({ products });
       })
   }
+
+
   render() {
     const { products } = this.state
     return (

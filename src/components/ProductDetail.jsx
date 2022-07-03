@@ -1,9 +1,13 @@
 import React from 'react'
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { MdAddShoppingCart } from 'react-icons/md'
+import axios from 'axios';
+import { API_URL } from '../utils/constans';
+import swal from 'sweetalert';
+import { useHistory } from 'react-router-dom';
 
 export const ProductDetail = ({ data }) => {
+    let history = useHistory();
     const [count, setCount] = useState(0);
     const [product, setProduct] = useState(data);
 
@@ -12,6 +16,35 @@ export const ProductDetail = ({ data }) => {
         var reverse = angka.toString().split('').reverse().join(''),
             ribuan = reverse.match(/\d{1,3}/g);
         return ribuan = ribuan.join('.').split('').reverse().join('');
+    }
+
+    const masukKeranjang = (value) => {
+        if (count > 0) {
+            const keranjang = {
+                jumlah: count,
+                total_harga: value.harga,
+                products: value
+            }
+            axios
+                .post(API_URL + "keranjangs", keranjang)
+                .then(res => {
+                    swal({
+                        title: "Berhasil Masuk Keranjang",
+                        text: value.nama + " Berhasil Masuk Keranjang",
+                        icon: "success",
+                        button: "Oke",
+                    });
+                    history.push("/keranjang");
+                })
+        } else {
+            swal({
+                title: "Masukan Jumlah nya",
+                icon: "warning",
+                button: "Oke",
+            });
+        }
+
+
     }
     return (
         <>
@@ -45,8 +78,8 @@ export const ProductDetail = ({ data }) => {
                                     </span>
                                 </form>
                             </div>
-                            <div className="total-product fs-5 fw-bold mb-5">
-                                <Link className='transparentnstroke p-3 text-decoration-none'><MdAddShoppingCart className='me-2 fs-3' /> Masukan Keranjang</Link>
+                            <div className="total-product fs-5 fw-bold mb-5" onClick={() => masukKeranjang(product)}>
+                                <buttom className='transparentnstroke p-3 text-decoration-none'><MdAddShoppingCart className='me-2 fs-3' /> Masukan Keranjang</buttom>
                             </div>
                         </div>
                     </div>
