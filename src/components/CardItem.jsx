@@ -1,47 +1,32 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { useHistory } from 'react-router-dom';
+const CardItem = ({ data }) => {
 
-export default class arditem extends Component {
-  render() {
-    return (
-      <>
-        <div className="col mb-4" >
-          <div class="card shadow card-produk" style={{ backgroundColor: '#F2EBE9' }}>
-            <img src='https://images.unsplash.com/photo-1603302576837-37561b2e2302?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGxhcHRvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60' class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Macbook M2 Pro</h5>
-              <p class="card-text">Harga : Rp 10000</p>
-              <router-link class="btn btn-success">
-                Pesan
-              </router-link>
-            </div>
-          </div>
-        </div>
-        <div className="col mb-4">
-          <div class="card shadow card-produk" style={{ backgroundColor: '#F2EBE9' }}>
-            <img src='https://images.unsplash.com/photo-1603302576837-37561b2e2302?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGxhcHRvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60' class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Macbook M2 Pro</h5>
-              <p class="card-text">Harga : Rp 10000</p>
-              <router-link class="btn btn-success">
-                Pesan
-              </router-link>
-            </div>
-          </div>
-        </div>
-        <div className="col mb-4">
-          <div class="card shadow card-produk" style={{ backgroundColor: '#F2EBE9' }}>
-            <img src='https://images.unsplash.com/photo-1603302576837-37561b2e2302?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGxhcHRvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60' class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Macbook M2 Pro</h5>
-              <p class="card-text">Harga : Rp 10000</p>
-              <router-link class="btn btn-success">
-                Pesan
-              </router-link>
-            </div>
-          </div>
-        </div>
-      </>
+  let history = useHistory();
 
-    )
+  const jalan = (index) => {
+    history.push("/productdetail/" + index);
   }
+
+  // FUNCTION UNTUK FORMAT RUPIAH HARGANYA
+  const formatRupiah = (angka) => {
+    var reverse = angka.toString().split('').reverse().join(''),
+      ribuan = reverse.match(/\d{1,3}/g);
+    return ribuan = ribuan.join('.').split('').reverse().join('');
+  }
+
+  return (
+    <div className="col-md-3 mb-4">
+      <div className="card shadow card-produk" onClick={() => jalan(data.id)} style={{ backgroundColor: '#F2EBE9' }}>
+        <img src={data.gambar} className="card-img-top" alt="..." />
+        <div className="card-body">
+          <h5 className="card-title">{data.nama}</h5>
+          <p className="card-text text-danger">Rp. {formatRupiah(data.harga)}  </p>
+        </div>
+      </div>
+    </div>
+
+  )
 }
+
+export default CardItem

@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+.colorfont{
+  color: #66FCF1 
+}
+
 /* KATEGORI */
 .wrapper {
   border-radius: 30px;
@@ -19,6 +23,27 @@ code {
   display: flex;
   overflow-x: auto;
   scroll-behavior: smooth;
+  
+}
+
+/* width */
+.wrapper::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.wrapper::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.wrapper::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.wrapper::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 .wrapper .item {
@@ -29,16 +54,26 @@ code {
 
 .categori-text{
   font-size: 0.8em;
-}
-
-.card-categori{
-  background-color: #F2EBE9;
-  border-radius: 15px;
+  background-color: red;
 }
 
 .card-categori img{
-  border-top-right-radius: 15px;
-  border-top-left-radius: 15px;
+  border-radius: 15px;
+}
+
+/* cardproduct */
+.card-title{
+  font-size: 1em;
+}
+
+.card-produk{
+  cursor: pointer;
+}
+
+.transparentnstroke{
+  background: transparent; 
+  border: 1px #F8F9FA solid;
+  color: #F8F9FA;
 }
 
 

@@ -5,80 +5,70 @@ export default class Kategori extends Component {
         return (
             <Fragment>
 
-                <div className="col-md-1 m-3 mb-4" >
-                    <div class="shadow card-categori">
-                        <img src='https://media.istockphoto.com/photos/old-electronic-devices-on-a-dark-background-the-concept-of-recycling-picture-id1372577388?b=1&k=20&m=1372577388&s=170667a&w=0&h=thZ046SaBkP3pJoq5xgaSvCnHvvxy_3ruHeAtiSf3pk=' class="card-img-top" alt="..." />
-                        <div class="card-body m-2 text-center">
-                            <p class="categori-text">Electronik</p>
-                        </div>
+                <div className="col-md-1 m-4 mb-4" >
+                    <div className="text-categori position-absolute">
+                        <div className="categori-text  text-light fw-bold bg-primary p-1">Electronik</div>
+                    </div>
+                    <div className="shadow card-categori">
+                        <img src='https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGVsZWN0cm9uaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60' width='120' alt="..." />
                     </div>
                 </div>
-
-                <div className="col-md-1 m-3 mb-4" >
-                    <div class="shadow card-categori">
-                        <img src='https://media.istockphoto.com/photos/old-electronic-devices-on-a-dark-background-the-concept-of-recycling-picture-id1372577388?b=1&k=20&m=1372577388&s=170667a&w=0&h=thZ046SaBkP3pJoq5xgaSvCnHvvxy_3ruHeAtiSf3pk=' class="card-img-top" alt="..." />
-                        <div class="card-body m-2 text-center">
-                            <p class="categori-text">Electronik</p>
-                        </div>
+                <div className="col-md-1 m-4 mb-4" >
+                    <div className="text-categori position-absolute">
+                        <div className="categori-text  text-light fw-bold bg-primary p-1">Electronik</div>
+                    </div>
+                    <div className="shadow card-categori">
+                        <img src='https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGVsZWN0cm9uaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60' width='120' alt="..." />
                     </div>
                 </div>
-                <div className="col-md-1 m-3 mb-4" >
-                    <div class="shadow card-categori">
-                        <img src='https://media.istockphoto.com/photos/old-electronic-devices-on-a-dark-background-the-concept-of-recycling-picture-id1372577388?b=1&k=20&m=1372577388&s=170667a&w=0&h=thZ046SaBkP3pJoq5xgaSvCnHvvxy_3ruHeAtiSf3pk=' class="card-img-top" alt="..." />
-                        <div class="card-body m-2 text-center">
-                            <p class="categori-text">Electronik</p>
-                        </div>
+                <div className="col-md-1 m-4 mb-4" >
+                    <div className="text-categori position-absolute">
+                        <div className="categori-text  text-light fw-bold bg-primary p-1">Electronik</div>
+                    </div>
+                    <div className="shadow card-categori">
+                        <img src='https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGVsZWN0cm9uaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60' width='120' alt="..." />
                     </div>
                 </div>
-                <div className="col-md-1 m-3 mb-4" >
-                    <div class="shadow card-categori">
-                        <img src='https://media.istockphoto.com/photos/old-electronic-devices-on-a-dark-background-the-concept-of-recycling-picture-id1372577388?b=1&k=20&m=1372577388&s=170667a&w=0&h=thZ046SaBkP3pJoq5xgaSvCnHvvxy_3ruHeAtiSf3pk=' class="card-img-top" alt="..." />
-                        <div class="card-body m-2 text-center">
-                            <p class="categori-text">Electronik</p>
-                        </div>
+                <div className="col-md-1 m-4 mb-4" >
+                    <div className="text-categori position-absolute">
+                        <div className="categori-text  text-light fw-bold bg-primary p-1">Electronik</div>
+                    </div>
+                    <div className="shadow card-categori">
+                        <img src='https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGVsZWN0cm9uaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60' width='120' alt="..." />
                     </div>
                 </div>
-                <div className="col-md-1 m-3 mb-4" >
-                    <div class="shadow card-categori">
-                        <img src='https://media.istockphoto.com/photos/old-electronic-devices-on-a-dark-background-the-concept-of-recycling-picture-id1372577388?b=1&k=20&m=1372577388&s=170667a&w=0&h=thZ046SaBkP3pJoq5xgaSvCnHvvxy_3ruHeAtiSf3pk=' class="card-img-top" alt="..." />
-                        <div class="card-body m-2 text-center">
-                            <p class="categori-text">Electronik</p>
-                        </div>
+                <div className="col-md-1 m-4 mb-4" >
+                    <div className="text-categori position-absolute">
+                        <div className="categori-text  text-light fw-bold bg-primary p-1">Electronik</div>
+                    </div>
+                    <div className="shadow card-categori">
+                        <img src='https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGVsZWN0cm9uaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60' width='120' alt="..." />
                     </div>
                 </div>
-                <div className="col-md-1 m-3 mb-4" >
-                    <div class="shadow card-categori">
-                        <img src='https://media.istockphoto.com/photos/old-electronic-devices-on-a-dark-background-the-concept-of-recycling-picture-id1372577388?b=1&k=20&m=1372577388&s=170667a&w=0&h=thZ046SaBkP3pJoq5xgaSvCnHvvxy_3ruHeAtiSf3pk=' class="card-img-top" alt="..." />
-                        <div class="card-body m-2 text-center">
-                            <p class="categori-text">Electronik</p>
-                        </div>
+                <div className="col-md-1 m-4 mb-4" >
+                    <div className="text-categori position-absolute">
+                        <div className="categori-text  text-light fw-bold bg-primary p-1">Electronik</div>
+                    </div>
+                    <div className="shadow card-categori">
+                        <img src='https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGVsZWN0cm9uaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60' width='120' alt="..." />
                     </div>
                 </div>
-                <div className="col-md-1 m-3 mb-4" >
-                    <div class="shadow card-categori">
-                        <img src='https://media.istockphoto.com/photos/old-electronic-devices-on-a-dark-background-the-concept-of-recycling-picture-id1372577388?b=1&k=20&m=1372577388&s=170667a&w=0&h=thZ046SaBkP3pJoq5xgaSvCnHvvxy_3ruHeAtiSf3pk=' class="card-img-top" alt="..." />
-                        <div class="card-body m-2 text-center">
-                            <p class="categori-text">Electronik</p>
-                        </div>
+                <div className="col-md-1 m-4 mb-4" >
+                    <div className="text-categori position-absolute">
+                        <div className="categori-text  text-light fw-bold bg-primary p-1">Electronik</div>
+                    </div>
+                    <div className="shadow card-categori">
+                        <img src='https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGVsZWN0cm9uaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60' width='120' alt="..." />
                     </div>
                 </div>
-                <div className="col-md-1 m-3 mb-4" >
-                    <div class="shadow card-categori">
-                        <img src='https://media.istockphoto.com/photos/old-electronic-devices-on-a-dark-background-the-concept-of-recycling-picture-id1372577388?b=1&k=20&m=1372577388&s=170667a&w=0&h=thZ046SaBkP3pJoq5xgaSvCnHvvxy_3ruHeAtiSf3pk=' class="card-img-top" alt="..." />
-                        <div class="card-body m-2 text-center">
-                            <p class="categori-text">Electronik</p>
-                        </div>
+                <div className="col-md-1 m-4 mb-4" >
+                    <div className="text-categori position-absolute">
+                        <div className="categori-text  text-light fw-bold bg-primary p-1">Electronik</div>
+                    </div>
+                    <div className="shadow card-categori">
+                        <img src='https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGVsZWN0cm9uaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60' width='120' alt="..." />
                     </div>
                 </div>
-                <div className="col-md-1 m-3 mb-4" >
-                    <div class="shadow card-categori">
-                        <img src='https://media.istockphoto.com/photos/old-electronic-devices-on-a-dark-background-the-concept-of-recycling-picture-id1372577388?b=1&k=20&m=1372577388&s=170667a&w=0&h=thZ046SaBkP3pJoq5xgaSvCnHvvxy_3ruHeAtiSf3pk=' class="card-img-top" alt="..." />
-                        <div class="card-body m-2 text-center">
-                            <p class="categori-text">Electronik</p>
-                        </div>
-                    </div>
-                </div>
-
 
             </Fragment>
         )
