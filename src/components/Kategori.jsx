@@ -1,76 +1,15 @@
-import React, { Component, Fragment } from 'react'
+import React from 'react'
 
-export default class Kategori extends Component {
-    render() {
-        return (
-            <Fragment>
-
-                <div className="col-md-1 m-4 mb-4" >
-                    <div className="text-categori position-absolute">
-                        <div className="categori-text  text-light fw-bold bg-primary p-1">Electronik</div>
-                    </div>
-                    <div className="shadow card-categori">
-                        <img src='https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGVsZWN0cm9uaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60' width='120' alt="..." />
-                    </div>
-                </div>
-                <div className="col-md-1 m-4 mb-4" >
-                    <div className="text-categori position-absolute">
-                        <div className="categori-text  text-light fw-bold bg-primary p-1">Electronik</div>
-                    </div>
-                    <div className="shadow card-categori">
-                        <img src='https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGVsZWN0cm9uaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60' width='120' alt="..." />
-                    </div>
-                </div>
-                <div className="col-md-1 m-4 mb-4" >
-                    <div className="text-categori position-absolute">
-                        <div className="categori-text  text-light fw-bold bg-primary p-1">Electronik</div>
-                    </div>
-                    <div className="shadow card-categori">
-                        <img src='https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGVsZWN0cm9uaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60' width='120' alt="..." />
-                    </div>
-                </div>
-                <div className="col-md-1 m-4 mb-4" >
-                    <div className="text-categori position-absolute">
-                        <div className="categori-text  text-light fw-bold bg-primary p-1">Electronik</div>
-                    </div>
-                    <div className="shadow card-categori">
-                        <img src='https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGVsZWN0cm9uaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60' width='120' alt="..." />
-                    </div>
-                </div>
-                <div className="col-md-1 m-4 mb-4" >
-                    <div className="text-categori position-absolute">
-                        <div className="categori-text  text-light fw-bold bg-primary p-1">Electronik</div>
-                    </div>
-                    <div className="shadow card-categori">
-                        <img src='https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGVsZWN0cm9uaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60' width='120' alt="..." />
-                    </div>
-                </div>
-                <div className="col-md-1 m-4 mb-4" >
-                    <div className="text-categori position-absolute">
-                        <div className="categori-text  text-light fw-bold bg-primary p-1">Electronik</div>
-                    </div>
-                    <div className="shadow card-categori">
-                        <img src='https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGVsZWN0cm9uaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60' width='120' alt="..." />
-                    </div>
-                </div>
-                <div className="col-md-1 m-4 mb-4" >
-                    <div className="text-categori position-absolute">
-                        <div className="categori-text  text-light fw-bold bg-primary p-1">Electronik</div>
-                    </div>
-                    <div className="shadow card-categori">
-                        <img src='https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGVsZWN0cm9uaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60' width='120' alt="..." />
-                    </div>
-                </div>
-                <div className="col-md-1 m-4 mb-4" >
-                    <div className="text-categori position-absolute">
-                        <div className="categori-text  text-light fw-bold bg-primary p-1">Electronik</div>
-                    </div>
-                    <div className="shadow card-categori">
-                        <img src='https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGVsZWN0cm9uaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60' width='120' alt="..." />
-                    </div>
-                </div>
-
-            </Fragment>
-        )
-    }
+export const Kategori = ({ data }) => {
+    return (
+        <div className="col-md-1 m-4 mb-4 position-relative" >
+            <div className="text-categori position-absolute" >
+                <div className="categori-text  fw-bold p-1" style={{ backgroundColor: '#2C3745', color: '#46D7F1' }}>{data.nama}</div>
+            </div>
+            <div className="shadow card-categori ">
+                <img src={data.gambar} width='120' alt="..." />
+            </div>
+        </div >
+    )
 }
+export default Kategori

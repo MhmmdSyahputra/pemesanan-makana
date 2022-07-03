@@ -10,6 +10,7 @@ export default class Keranjang extends Component {
         // declartion products to be called
         this.state = {
             keranjangs: [],
+
         }
     }
 
@@ -23,15 +24,16 @@ export default class Keranjang extends Component {
                 const keranjangs = res.data;
                 this.setState({ keranjangs });
             })
+
     }
 
     render() {
-        const { keranjangs } = this.state
+        const { keranjangs, total } = this.state
         return (
             <>
                 <div className="container mt-5">
                     <h2 className='text-light' style={{ borderBottom: '2px #66FCF1 solid' }}>
-                        <div className="text mb-5">Keranjang Belanja </div>
+                        <div className="text mb-5">Keranjang Belanja <span style={{ color: '#66FCF1' }}>{keranjangs.length}</span></div>
                     </h2>
 
                     <div className="row">
@@ -45,8 +47,9 @@ export default class Keranjang extends Component {
                         <div className="col-md-4 text-light ">
                             <div className='p-3' style={{ backgroundColor: '#2C3745', border: '2px #66FCF1 solid', borderRadius: '20px' }}>
                                 <div className='fs-2'>Total Order</div>
-                                <div className='fs-1 text-center mb-4'>Rp 20000000</div>
+                                <div className='fs-1 text-center mb-4'>{keranjangs.harga}</div>
                                 <div className='row'>
+
                                     <div className="col">
                                         keranjang <br />
                                         Diskon <br />
@@ -57,7 +60,16 @@ export default class Keranjang extends Component {
                                         Rp <br />
                                         Rp
                                     </div>
+
+                                    <div className='fs-2 mt-4'>
+                                        <button className='btn' style={{ width: '100%', color: '#66FCF1', border: '2px #66FCF1 solid' }} >
+                                            Pesan
+                                        </button>
+
+                                    </div>
+
                                 </div>
+
                             </div>
 
                         </div>

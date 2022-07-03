@@ -13,14 +13,17 @@ export default class Home extends Component {
     // declartion products to be called
     this.state = {
       products: [],
+      categori: [],
     }
+    this.filtercategori = this.filtercategori.bind(this);
+
   }
 
 
-  // MEMBUKA SEMUA DATA PRODUCTS DENGAN AXIOS
-  componentDidMount() {
+
+  filtercategori(categori) {
     axios.
-      get(API_URL + "products")
+      get(API_URL + "products?category=Fashion Wanita")
       .then(res => {
         console.log(res);
         const products = res.data;
@@ -28,8 +31,17 @@ export default class Home extends Component {
       })
   }
 
-  // MEMBUKA SEMUA DATA KATEGORI DENGAN AXIOS
+  // MEMBUKA SEMUA DATA-DATA YG DIPERLUKAN DENGAN AXIOS
   componentDidMount() {
+    // MEMBUKA KATEGORI
+    axios.
+      get(API_URL + "kategori")
+      .then(res => {
+        const categori = res.data;
+        this.setState({ categori });
+      })
+
+    // MEMBUKA PRODUCTS
     axios.
       get(API_URL + "products")
       .then(res => {
@@ -37,10 +49,12 @@ export default class Home extends Component {
         const products = res.data;
         this.setState({ products });
       })
+
   }
+
 
   render() {
-    const { products } = this.state
+    const { products, categori } = this.state
     return (
       <Fragment>
         <div className="home">
@@ -49,8 +63,10 @@ export default class Home extends Component {
 
             <div className="categori">
               <h2 className='colorfont'><BiCategoryAlt className='me-2' />Kategori</h2>
-              <div className="wrapper">
-                <Kategori />
+              <div className="wrapper" onclick={() => this.filtercategori(products.kategori)}>
+                {categori && categori.map((categori) => (
+                  <Kategori key={categori.id} data={categori} />
+                ))}
               </div>
             </div>
 

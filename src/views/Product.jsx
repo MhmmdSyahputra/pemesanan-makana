@@ -19,7 +19,7 @@ export default class Product extends Component {
   // MEMBUKA SEMUA DATA PRODUCTS DENGAN AXIOS
   componentDidMount() {
     axios.
-      get(API_URL + "products")
+      get(API_URL + "products?id=" + this.props.match.params.id)
       .then(res => {
         console.log(res);
         const products = res.data;
@@ -39,13 +39,9 @@ export default class Product extends Component {
             </Link>
           </div>
           <div className="row">
-            {
-              products
-                .filter(products => products.id == this.props.match.params.id)
-                .map(products =>
-                  <ProductDetail key={products.id} data={products} />
-                )
-            }
+            {products && products.map((products) => (
+              <ProductDetail key={products.id} data={products} />
+            ))}
 
           </div>
         </div>
