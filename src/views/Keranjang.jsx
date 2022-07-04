@@ -9,8 +9,6 @@ export default class Keranjang extends Component {
 
     constructor(props) {
         super(props);
-        // declartion products to be called
-        let history = useHistory()
         this.state = {
             keranjangs: [],
             nama: '',
@@ -42,10 +40,11 @@ export default class Keranjang extends Component {
         return ribuan = ribuan.join('.').split('').reverse().join('');
     }
 
+    // menyimpan nama setiap ada perubahan ke nama
     nama(event) {
         this.setState({ nama: event.target.value });
     }
-
+    // menyimpan alamat setiap ada perubahan ke alamat
     alamat(event) {
         this.setState({ alamat: event.target.value });
     }
@@ -53,32 +52,44 @@ export default class Keranjang extends Component {
 
     // CHECKOUTNYA
     checkout(value) {
-        // console.log(value.jumlah);
-        // alert("ef")
-        const pesanan = {
-            nama: this.state.nama,
-            alamat: this.state.alamat,
-            products: value
+        // cek terlebih dahulu apakah pelanggan memasukkan nama dan alamat jika iya maka jalankan
+        if (this.state.nama && this.state.alamat !== "") {
+            const pesanan = {
+                nama: this.state.nama,
+                alamat: this.state.alamat,
+                products: value
+            }
+
+            axios
+                // masukan data keranjang ke pesanan
+                .post("http://localhost:3000/pesanans/", pesanan)
+                // jika berhasil maka hapus item yg ada dikeranjang nya
+                .then(() => {
+                    value.map((keranjangs) => {
+                        return axios
+                            .delete("http://localhost:3000/keranjangs/" + keranjangs.id)
+                            .then(() => {
+                                swal({
+                                    title: "Barang berhasil di pesan",
+                                    icon: "success",
+                                    button: "Oke"
+                                })
+                                this.props.history.push({
+                                    pathname: '/',
+                                });
+                            })
+                    });
+
+                })
+            // jika tidak maka munculkan alert
+        } else {
+            swal({
+                title: "Masukan Nama Anda Dan Alamat Anda",
+                icon: "warning",
+                button: "Oke"
+            })
         }
 
-        axios
-            .post("http://localhost:3000/pesanans/", pesanan)
-            // jika berhasil maka hapus item yg ada dikeranjang nya
-            .then(() => {
-                value.map((keranjangs) => {
-                    return axios
-                        .delete("http://localhost:3000/keranjangs/" + keranjangs.id)
-                        .then(() => {
-                            swal({
-                                title: "Barang berhasil di pesan",
-                                icon: "success",
-                                button: "Oke"
-                            })
-                            history.push("/");
-                        })
-                });
-
-            })
 
     }
 
@@ -147,7 +158,7 @@ export default class Keranjang extends Component {
                                                     <div className="modal-footer " style={{ backgroundColor: '#282A35' }}>
                                                         <button type="button" className="btn " data-bs-dismiss="modal" style={{ color: 'red', border: '2px red solid' }} >Close</button>
 
-                                                        <button type="button" onClick={() => this.checkout(keranjangs)} style={{ color: '#66FCF1', border: '2px #66FCF1 solid' }} className="btn" >Checkout</button>
+                                                        <button type="button" data-bs-dismiss="modal" onClick={() => this.checkout(keranjangs)} style={{ color: '#66FCF1', border: '2px #66FCF1 solid' }} className="btn" >Checkout</button>
                                                     </div>
                                                 </div>
                                             </div>
