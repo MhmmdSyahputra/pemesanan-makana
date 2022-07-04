@@ -1,18 +1,20 @@
-import React, { Component } from 'react'
+import React, { Component, useState } from 'react'
 import axios from 'axios'
 import { API_URL } from '../utils/constans';
 import KeranjangItem from '../components/KeranjangItem';
+import { useHistory } from 'react-router-dom'
+import swal from 'sweetalert';
 
 export default class Keranjang extends Component {
+
     constructor(props) {
         super(props);
         // declartion products to be called
+        let history = useHistory()
         this.state = {
             keranjangs: [],
-
             nama: '',
             alamat: '',
-
 
         }
         this.formatRupiah = this.formatRupiah.bind(this);
@@ -27,7 +29,6 @@ export default class Keranjang extends Component {
         axios.
             get(API_URL + "keranjangs")
             .then(res => {
-                console.log(res);
                 const keranjangs = res.data;
                 this.setState({ keranjangs });
             })
@@ -49,40 +50,40 @@ export default class Keranjang extends Component {
         this.setState({ alamat: event.target.value });
     }
 
-    checkout() {
-        alert("ejjrnfirn")
-    }
 
     // CHECKOUTNYA
-    // checkout() {
-    //     alert("bismillah")
-    // if (this.nama && this.alamat) {
-    //     this.event.keranjangs = this.keranjangs;
-    //     axios
-    //         .post("http://localhost:3000/pesanans/", this.pesan)
-    //         .then(() => {
-    //             Hapus Semua keranjang
-    //             this.keranjangs.map(function (item) {
-    //                 return axios
-    //                     .delete("http://localhost:3000/keranjangs/" + item.id)
-    //                     .catch((err) => console.log(err));
-    //             });
+    checkout(value) {
+        // console.log(value.jumlah);
+        // alert("ef")
+        const pesanan = {
+            nama: this.state.nama,
+            alamat: this.state.alamat,
+            products: value
+        }
 
-    //             this.$router.push({ path: "/pesanan-sukses" });
-    //             this.$toast.success("Sukses Di Pesan.", {
-    //                 type: "success",
-    //                 position: "top-right",
-    //                 duration: 3000,
-    //                 dismissible: true,
-    //             });
-    //         })
-    //         .catch((err) => console.log(err));
-    // }
-    // event.preventDefault();
-    // }
+        axios
+            .post("http://localhost:3000/pesanans/", pesanan)
+            // jika berhasil maka hapus item yg ada dikeranjang nya
+            .then(() => {
+                value.map((keranjangs) => {
+                    return axios
+                        .delete("http://localhost:3000/keranjangs/" + keranjangs.id)
+                        .then(() => {
+                            swal({
+                                title: "Barang berhasil di pesan",
+                                icon: "success",
+                                button: "Oke"
+                            })
+                            history.push("/");
+                        })
+                });
+
+            })
+
+    }
 
     render() {
-        const { keranjangs, nama, alamat } = this.state
+        const { keranjangs } = this.state
 
         //TOTAL HARGA
         const totalHarga = keranjangs.reduce(function (result, item) {
@@ -139,14 +140,14 @@ export default class Keranjang extends Component {
                                                     </div>
                                                     <div className="modal-body" style={{ backgroundColor: '#282A35' }}>
                                                         <form action="">
-                                                            <input type="nama" className='form-control mb-4' value={nama} onChange={this.nama} placeholder='Nama Anda' />
-                                                            <textarea name="alamat" value={alamat} onChange={this.alamat} className='form-control' placeholder='Alamat Lengkap Anda'></textarea>
+                                                            <input type="nama" className='form-control mb-4' value={this.state.nama} onChange={this.nama} placeholder='Nama Anda' />
+                                                            <textarea name="alamat" value={this.state.alamat} onChange={this.alamat} className='form-control' placeholder='Alamat Lengkap Anda'></textarea>
                                                         </form>
                                                     </div>
                                                     <div className="modal-footer " style={{ backgroundColor: '#282A35' }}>
                                                         <button type="button" className="btn " data-bs-dismiss="modal" style={{ color: 'red', border: '2px red solid' }} >Close</button>
 
-                                                        <button type="button" onclick={() => this.checkout()} style={{ color: '#66FCF1', border: '2px #66FCF1 solid' }} className="btn" >Checkout</button>
+                                                        <button type="button" onClick={() => this.checkout(keranjangs)} style={{ color: '#66FCF1', border: '2px #66FCF1 solid' }} className="btn" >Checkout</button>
                                                     </div>
                                                 </div>
                                             </div>
