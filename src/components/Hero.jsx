@@ -7,9 +7,9 @@ export default class Hero extends Component {
       <div className="container" style={{ marginTop: '100px' }}>
         <div className="row">
           <div className="col m-auto text-light">
-            <h1 className='fs-1'><strong>Lorem, ipsum dolor.</strong> </h1>
-            <h2 className='text-bold'>Lorem, ipsum</h2>
-            <h3 className='text-bold fs-6'>Lorem ipsum dolor, sit amet consectetur adipisicing</h3>
+            <h1 className='fs-1'><strong>Habiskan Duit Anda disini</strong> </h1>
+            <h2 className='text-bold'>Shope Athena</h2>
+            <h3 className='text-bold fs-6'>Produk yang kami jual berkualitas</h3>
           </div>
           <div className="col">
             <Carousel>
