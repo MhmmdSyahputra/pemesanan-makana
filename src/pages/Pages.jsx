@@ -1,5 +1,5 @@
 import React from "react"
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import { BrowserRouter as Router, Route } from "react-router-dom"
 import Footer from "../components/Footer"
 import Header from "../components/Header"
 import Home from "../views/Home"
@@ -10,11 +10,11 @@ const Pages = () => {
     <>
       <Router>
         <Header />
-        <Switch>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/keranjang' component={Keranjang} />
-          <Route exact path='/productdetail/:id' component={Product} />
-        </Switch>
+
+        <Route exact path='/' component={Home} />
+        <Route exact path='/keranjang' component={Keranjang} />
+        <Route exact path='/productdetail/:id' component={Product} />
+
       </Router>
       <Footer />
     </>

@@ -17,7 +17,7 @@ const KeranjangItem = ({ data }) => {
             .delete(API_URL + "keranjangs/" + dataa)
             .then(res => {
                 swal({
-                    title: "Berhasil Masuk Keranjang",
+                    title: "Berhasil Hapus Item Keranjang",
                     icon: "success",
                     button: "Oke"
                 })
