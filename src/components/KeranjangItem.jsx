@@ -10,9 +10,6 @@ const KeranjangItem = ({ data }) => {
     let history = useHistory();
     const [keranjangs, setkeranjangs] = useState(data);
 
-    const checkout = (data) => {
-
-    }
 
     const hapusKeranjang = (dataa) => {
 
@@ -36,6 +33,7 @@ const KeranjangItem = ({ data }) => {
     }
 
     return (
+
         <>
             <div className="row mt-4" style={{ borderBottom: '2px #66FCF1 solid' }}>
                 <div className="col-md-3 mb-5">
