@@ -22,6 +22,7 @@ export default class Home extends Component {
 
 
   filtercategori(categori) {
+    alert(categori)
     axios.
       get(API_URL + "products?category=Fashion Wanita")
       .then(res => {
@@ -62,8 +63,9 @@ export default class Home extends Component {
             <Hero />
 
             <div className="categori">
+
               <h2 className='colorfont'><BiCategoryAlt className='me-2' />Kategori</h2>
-              <div className="wrapper" onclick={() => this.filtercategori(products.kategori)}>
+              <div className="wrapper" onClick={() => this.filtercategori(products.kategory)}>
                 {categori && categori.map((categori) => (
                   <Kategori key={categori.id} data={categori} />
                 ))}

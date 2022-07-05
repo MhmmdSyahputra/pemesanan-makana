@@ -8,7 +8,7 @@ export default class Footer extends Component {
                     <hr />
                     <div className="container">
                         <div className="row">
-                            <div className="col text-center text-light">2022 Copyright&copy; Putra</div>
+                            <div className="col text-center text-light">2022 Copyright&copy; Athena</div>
                         </div>
                     </div>
                 </footer>
