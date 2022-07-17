@@ -37,7 +37,7 @@ const KeranjangItem = ({ data }) => {
         <>
             <div className="row mt-4" style={{ borderBottom: '2px #66FCF1 solid' }}>
                 <div className="col-md-3 mb-5">
-                    <img src={keranjangs.products.gambar} width='200' alt="" style={{ borderRadius: '20px' }} />
+                    <img src={keranjangs.products.gambar} width='200' className='img-fluid' alt="" style={{ borderRadius: '20px' }} />
                 </div>
                 <div className="col-md-8 ">
                     <div className="title-product fs-4 fw-bold">

@@ -53,7 +53,7 @@ export const ProductDetail = ({ data }) => {
                 <div className="col-md-11 text-light">
                     <div className="row p-4">
                         <div className="col-md-7">
-                            <img src={product.gambar} width='600' alt="" />
+                            <img src={product.gambar} className='img-fluid' width='600' alt="" />
                         </div>
                         <div className="col">
                             <div className="title-product fs-3 fw-bold mb-4">

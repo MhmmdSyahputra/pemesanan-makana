@@ -117,7 +117,7 @@ export default class Keranjang extends Component {
                         </div>
 
                         {/* BOX ORDERAN */}
-                        <div className="col-md-4 text-light ">
+                        <div className="col-md-4 mt-3 text-light ">
                             <div className='p-3' style={{ backgroundColor: '#2C3745', border: '2px #66FCF1 solid', borderRadius: '20px' }}>
                                 <div className='fs-2' >Total Order</div>
                                 <div className='fs-1 text-center mb-4'>
