@@ -1,0 +1,985 @@
+{
+  "kategori": [
+    {
+      "id": 1,
+      "nama": "Elektronik",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/993055820885524560/Untitled_design_17.png"
+    },
+    {
+      "id": 2,
+      "nama": "Gaming",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/993056205851328572/Untitled_design_18.png"
+    },
+    {
+      "id": 3,
+      "nama": "Komputer & Laptop",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/993056648841142302/Untitled_design_19.png"
+    },
+    {
+      "id": 4,
+      "nama": "Handphone & Tablet",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/993056660497109022/Untitled_design_20.png"
+    },
+    {
+      "id": 5,
+      "nama": "Fashion Pria",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/993056983794061322/Untitled_design_21.png"
+    },
+    {
+      "id": 6,
+      "nama": "Fashion Wanita",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/993057193987420180/Untitled_design_22.png"
+    },
+    {
+      "id": 7,
+      "nama": "Fashion Muslim",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/993057683601100801/Untitled_design_24.png"
+    },
+    {
+      "id": 8,
+      "nama": "Olahraga",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/993057880100061234/Untitled_design_25.png"
+    },
+    {
+      "id": 9,
+      "nama": "Hobi & Koleksi",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/993058206744072202/Untitled_design_26.png"
+    },
+    {
+      "id": 10,
+      "nama": "Perlengkapan Rumah",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/993058510533296179/Untitled_design_27.png"
+    },
+    {
+      "id": 11,
+      "nama": "Perawatan & Kecantikan",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/993058869347631146/Untitled_design_28.png"
+    },
+    {
+      "id": 12,
+      "nama": "Kesehatan",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/993059244117082122/Untitled_design_29.png"
+    },
+    {
+      "id": 13,
+      "nama": "Otomotif",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/993059507053793341/Untitled_design_30.png"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Apple MacBook Pro 13 inch 8GB",
+      "harga": 20699000,
+      "is_ready": true,
+      "category": "Komputer & Laptop",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992703084218306600/71YRSVXhgQL._SL1500_.jpg",
+      "deskripsi": "Chip Apple M1 mendefinisikan ulang MacBook Pro 13 inci. Dilengkapi CPU 8-core yang mampu menangani berbagai tahapan kerja yang kompleks dalam fotografi, pemrograman, pengeditan video, dan lainnya, dengan mudah. GPU 8-core luar biasa yang melibas tugas kaya grafis dengan mudah dan membuat game terasa sangat lancar. Neural Engine 16-core yang canggih untuk tenaga lebih besar bagi pembelajaran mesin di aplikasi favorit Anda. Memori terintegrasi super cepat untuk performa yang lancar. Dan kekuatan baterai paling tahan lama yang pernah ada di Mac, hingga 20 jam.2 Ini adalah laptop pro Apple yang paling populer. Performa jauh lebih baik, jauh lebih pro."
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "IE.DEMODE Aviana Celana Panjang Kerja",
+      "harga": 64900,
+      "category": "Fashion Wanita",
+      "is_ready": true,
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992747106873905213/c74498b9ca33218caec3bae3d02c154a.jpg",
+      "deskripsi": "Celana panjang wanita dengan cutting ankle-length dan loose straight. Celana wanita ini memiliki design buckle disamping depan dan pita untuk tampilan manis. Terdapat kantong di bagian samping kiri dan kanan untuk membantu dalam beraktifitas."
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Monocozzi Lucid Translucent Hard Shell MacBook Air 13",
+      "harga": 649000,
+      "is_ready": true,
+      "category": "Komputer & Laptop",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992704145704353792/d6d1ca02a5042d130dc9abab2c5fe2d3.jpg",
+      "deskripsi": "Monocozzi Lucid Translucent Hard Shell MacBook Air 13 Touch Bar - White. Spec : Macbook Air 13. Drop Protection"
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Johnson Basic LowCut",
+      "harga": 105000,
+      "is_ready": true,
+      "category": "Sepatu",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992747759981572156/e91f6f1f27f07162b6f08468f3ba2461.jpg",
+      "deskripsi": "Sepatu sekolah ini didesign stylish dan nyaman untuk digunakan. Menggunakan bahan kain kanvas dan sol karet , sepatu sekolah Johnson sangat nyaman digunakan sehari - hari. Ukuran Insole/ Sol Dalam: ( Harap Perhatikan Ukuran ya, untuk menghindari salah nomor)"
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "ASUS TUF GAMING F15 FX506LH-I765B8T-O",
+      "harga": 14569000,
+      "is_ready": true,
+      "category": "Komputer & Laptop",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992704669510021170/c72e588a9d51ed72bdb056f8579744c6.jpg",
+      "deskripsi": "ASUS TUF GAMING F15 FX506LH-I765B8T-O[Intel Core i5-11400H / RTX3050 4GB / 16GB / 512GB SSD / 15.6inch / Win11 / OHS]. - Kelengkapan Paket Laptop, kartu garansi, buku panduan, adaptor,Berat 2.3 kg, Dimensi Produk 35.9 x 25.6 x 2.28 ~ 2.43 cm (WxDxH), Baterai 48WHrs, 3S1P, 3-cell Li-ion ,Interface 1 x COMBO audio jack 2 x Type-A USB 3.2 (Gen 1) 1 x Type-C USB 3.2 (Gen 2) with display support 1 x Type-A USB2.0 1 x RJ45 LAN jack for LAN insert 1 x HDMI, HDMI support 2.0b 1 x AC adapter plug .Wireless Protocol Type Integrated Wi-Fi 6 (802.11 ax)"
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "dbE GM210 7.1 Virtual Surround Gaming Headphone",
+      "harga": 299000,
+      "is_ready": true,
+      "category": "Gaming",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992704905313800232/785dda0c-a586-4cfa-b271-8ceba7088571.jpg",
+      "deskripsi": "Setelah bertahun-tahun kami mengembangkan gaming headphone, kami sadar bahwa kenyamanan adalah syarat utama gaming headphone yang baik karena gaming headphone ini sering sekali digunakan selama berjam-jam tanpa henti. Sebagai jawaban dari kebutuhan costumer akan gaming headset yang nyaman dan bersuara bagus, kami mengembangkan dbE GM210. dbE GM210 adalah gaming headset yang sangat nyaman digunakan, total berat bagian headsetnya hanya 293 gram. Clamping force GM210 juga sudah disesuaikan sehingga cukup nyaman digunakan bagi user yang berkacamata. Karakter suara GM210 ini netral dengan bass tight dan soundstage luas. Kami memilih menggunakan sound signature ini untuk membuat user GM210 bisa merasakan suasana game tanpa ada satu frekuensipun yang berlebihan termasuk bass."
+    },
+    {
+      "id": 7,
+      "kode": "K-07",
+      "nama": "Onikuma X20 RGB Gaming Headset",
+      "harga": 139000,
+      "is_ready": true,
+      "category": "Gaming",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992705102429302805/2356595eea06931fa659daf02bdf0cc8.jpg",
+      "deskripsi": "Penutup telinga besar yang dibungkus penuh, pas nyaman, mengisolasi kebisingan lingkungan dan meningkatkan pengalaman bermain. Desain balok kepala suspensi sayap terbang dan fit adaptif. Ini mengadopsi mikrofon omnidirectional, kepala mikrofon cahaya biru es dan batang ketangguhan tinggi untuk secara akurat mengambil suara dan menolak kebisingan saat ini, sehingga membuat hambatan komunikasi gratis."
+    },
+    {
+      "id": 8,
+      "kode": "K-08",
+      "nama": "FNGEEN 5055 Jam Tangan Pria",
+      "harga": 88000,
+      "is_ready": true,
+      "category": "Fashion Pria",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992705317286723684/bce996c53bb689bcb0147eb59a1eaf69.jpg",
+      "deskripsi": "Harap Dibaca Sebelum Membeli Utk Menghindari Kesalahpahaman. 1.Jika anda khawatir paket yang anda terima tidak sesuai dengan yang anda pesan, silahkan buat video unpacking setelah paket diterima. 2.Mohon cek informasi alamat dan varian produk serta jumlah yang dipesan sebelum checkout, kami tidak menerima perubahan nama, nomor, alamat atau barang setelah pengiriman. Mohon mengertila"
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Apple iPhone 11 128GB",
+      "harga": 8749000,
+      "is_ready": true,
+      "category": "Handphone & Tablet",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992705689665417247/828791f21909cee1ca573fd1126dde44.jpg",
+      "deskripsi": "Rekam video 4K, potret yang indah, dan lanskap yang lebih luas dengan sistem kamera ganda yang sepenuhnya baru. Ambil foto berpencahayaan rendah terbaik dengan mode Malam. Lihat warna yang begitu nyata dalam foto, video, dan game di layar Liquid Retina 6,1 inci. Nikmati performa tak tertandingi dengan A13 Bionic untuk game, augmented reality (AR), dan fotografi. Lakukan lebih banyak hal tanpa perlu sering mengisi daya dengan kekuatan baterai sepanjang hari. Dan nikmati ketenangan dengan ketahanan air hingga 2 meter selama 30 menit"
+    },
+    {
+      "id": 10,
+      "kode": "K-10",
+      "nama": "VGA ASUS Dual Geforce GTX1650 4GB",
+      "harga": 4200000,
+      "is_ready": true,
+      "category": "Komputer & Laptop",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992705911627989072/62d74f9c-027b-4619-b068-9ba5ef93672b.jpg",
+      "deskripsi": "Seluruh produk yang kami jual merupakan 100 baru, garansi resmi dan kepuasan Anda adalah prioritas kamiASUS Dual GeForce GTX 1650 OC edition 4GB GDDR5 is your ticket into PC gaming. The ASUS Dual GeForce GTX 1650 is built with the breakthrough graphics performance of the award-winning NVIDIA Turing architecture to supercharge your favorite games. Get game ready with performance thats twice as fast as the GeForce GTX 950 and up to 70x faster than the GTX 1050. GeForce Experience lets you capture and share videos, screenshots, and livestreams with friends, keep your GeForce drivers up to date, and easily optimize your in-game settings. IP5X dust resistance offers protection from particle ingress for better durability. Auto-Extreme Technology uses automation to enhance reliability. 144-Hour Validation Program puts cards through a series of stringent tests to ensure compatibility with the latest games. GPU Tweak II provides intuitive performance tweaking, thermal controls, and system monitoring."
+    },
+    {
+      "id": 11,
+      "kode": "K-11",
+      "nama": "Wireless TWS 5.1 Bluetooth Earphone",
+      "harga": 198999,
+      "is_ready": true,
+      "category": "Handphone & Tablet",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992706114229641277/d0558a7fcbf5330007273cab259956ab.jpg",
+      "deskripsi": "HARAP DIPERHATIKAN! Buatlah video Unboxing pada saat menerima dan membuka paket, untuk mencegah hal-hal yang tidak di inginkan"
+    },
+    {
+      "id": 12,
+      "kode": "K-12",
+      "nama": "Lap Microfiber Premium",
+      "harga": 5495,
+      "is_ready": true,
+      "category": "Perlengkapan Rumah",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992706427384758312/99a8740784149a61137bdb70a856380d.jpg",
+      "deskripsi": "Kain Lap Microfiber Menyerap air lebih banyak. Bisa digunakan untuk detailaing mobil, motor atau untuk laptop, PC, layar kaca dll. Tidak luntur dan tidak meninggalkan baret. Lembut dan sangat ringan. Ukuran 30 x 30 cm ( toleransi potong plus minus 1 cm ) Gramasi kain 280 grm/sqm Gramaai produk, 28 gr/pcs Warna Kuning dan Grey ( abu )"
+    },
+    {
+      "id": 13,
+      "kode": "K-13",
+      "nama": "KENMASTER Sikat Kawat Mini",
+      "harga": 9251,
+      "is_ready": true,
+      "category": "Perlengkapan Rumah",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992706604145332275/4604_06dcc8c3-4868-4df4-8465-2138d70b1022_700_700.jpg",
+      "deskripsi": "Sikat mini serba guna terdiri dari 3 buah sikat ukuran sikat gigi dengan variasi bulu : sikat kawat baja (steel), sikat kawat kuningan (brass), dan sikat kawat nilon (nylon)."
+    },
+    {
+      "id": 14,
+      "kode": "K-14",
+      "nama": "Changhong Google certified Android Smart TV",
+      "harga": 1999000,
+      "is_ready": true,
+      "category": "Elektronik",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992746275797741770/a593ffdd5c377ed174277751403e760e.jpg",
+      "deskripsi": "Changhong Google certified Android Smart TV 32 Inch Digital TV HD LED TV (Model= L32H4).  Pengoperasian cukup mudah, tinggal colok antena digital jika ingin nonton siaran tv biasa lalu pindai saluran. Jika hanya ingin akses internet tinggal connect Wifi. Jika ada kesulitan atau pertanyaan terkait pengoperasian TV bisa gabung dalam group Facebook Changhong Android TV"
+    },
+    {
+      "id": 15,
+      "kode": "K-15",
+      "nama": "SOMETHINC ASAP Eyelash ",
+      "harga": 79000,
+      "is_ready": true,
+      "category": "Perawatan & Kecantikan",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992745887174512690/ASAP_Eyelash_Brow_Treatment_Serum-Lash_Tracker.jpeg",
+      "deskripsi": "ASAP Eyelash & Brow Treatment Serum - Serum Bulu Mata Dapatkan bulu mata lentik sempurna dengan 4x Active Lash & Brow Growth Stimulator untuk memanjangkan, menebalkan, menumbuhkan, serta mencegah kerontokan pada bulu mata & alis sampai 3x lebih banyak dalam 15 hari* dengan kandungan Synergrowth, Biotinoyl Tripeptide-1, Lash Fertilizer serta Pea Extract."
+    },
+    {
+      "id": 16,
+      "kode": "K-16",
+      "nama": "Skittish Parfum BUY 1 GET 1",
+      "harga": 69900,
+      "is_ready": true,
+      "category": "Fashion Pria",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992707363356291172/f88c4e3bad7a980c1800f70330035d33.jpg",
+      "deskripsi": "SKITTISS PARFUM merupakan sebuah produk parfum EDP yang diformulasikan untuk laki-laki khususnya. Yang memiliki 3 aroma sekaligus bikin para wanita terpikat. Parfum elegan, simple dan mewah ? Ya Skittisss Parfum"
+    },
+    {
+      "id": 17,
+      "kode": "K-17",
+      "nama": "Kawasaki Ninja ZX25R SE",
+      "harga": 124000000,
+      "is_ready": true,
+      "category": "Otomotif",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992707566956195891/1111728730.jpeg",
+      "deskripsi": "Melayani Pembelian All Unit Kawasaki, Kami hanya bisa terbitkan faktur Jawa Timur n NTT saja, Harap menghubungi nomer dahulu sebelum melakukan pemesanan."
+    },
+    {
+      "id": 18,
+      "kode": "K-18",
+      "nama": "KINGMA GoPro Max Lcd Glass Screen Protector",
+      "harga": 35600,
+      "is_ready": true,
+      "category": "Hobi & Koleksi",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992707906069872760/98381efc884b185d42ec3a7d0ac2611a.jpg",
+      "deskripsi": "KINGMA GoPro MAX LCD+LEnsTempered Glass Screen Protector Anti Gores merupakan temperred glass (kaca pelindung) yang didesain untuk GoPro MAX action camera, tempered glass ini didesain untuk melindungi screen LCD kamera GoPro MAX Anda. Selain itu anti gores ini dilengkapi installation kit sehingga mempermudah Anda dalam memasang anti gores tersebut. Anda tidak perlu khawatir lagi akan terjadinya goresan pada LCD kamera kesayangan Anda."
+    },
+    {
+      "id": 19,
+      "kode": "K-19",
+      "nama": "SEROKAN MOTIF / serokan pasir",
+      "harga": 6500,
+      "is_ready": true,
+      "category": "Hobi & Koleksi",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992707906069872760/98381efc884b185d42ec3a7d0ac2611a.jpg",
+      "deskripsi": "Serokan untuk kotoran Panjang serokan 27cm. HARGA SUDAH TERMASUK FRRE PACKING."
+    },
+    {
+      "id": 20,
+      "kode": "K-20",
+      "nama": "Onikuma X20 RGB Gaming Headset",
+      "harga": 139000,
+      "is_ready": true,
+      "category": "Gaming",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992705102429302805/2356595eea06931fa659daf02bdf0cc8.jpg",
+      "deskripsi": "Penutup telinga besar yang dibungkus penuh, pas nyaman, mengisolasi kebisingan lingkungan dan meningkatkan pengalaman bermain. Desain balok kepala suspensi sayap terbang dan fit adaptif. Ini mengadopsi mikrofon omnidirectional, kepala mikrofon cahaya biru es dan batang ketangguhan tinggi untuk secara akurat mengambil suara dan menolak kebisingan saat ini, sehingga membuat hambatan komunikasi gratis."
+    },
+    {
+      "id": 21,
+      "kode": "K-21",
+      "nama": "Chain lube megacools",
+      "harga": 18500,
+      "is_ready": true,
+      "category": "Otomotif",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992860780053659748/1d2c9c13ffe25d7393aae203aea10fe9.jpg",
+      "deskripsi": "Chain Lube adalah pelumas rantai dengan standar aman untuk segala jenis rantai yang diproduksi oleh Megacools - Easy Maintenance. Terbukti aman dan efektif mencegah rantai seret dan berfungsi untuk melumasi segala jenis rantai."
+    },
+    {
+      "id": 22,
+      "kode": "K-22",
+      "nama": "BIO CREAMY TREATS",
+      "harga": 12888,
+      "is_ready": true,
+      "category": "Hobi & Koleksi",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992861471992193044/44721058a2524169.jpg",
+      "deskripsi": "New Product by Baim Wong Produksi selalu terbaru setiap bulannya, masa kadaluarsa 18 bulan dr tanggal produksi dan kami selalu menjual yg fresh produksi long expired"
+    },
+    {
+      "id": 23,
+      "kode": "K-23",
+      "nama": "250ML SHAMPO KUCING SHAMPO ANTI KUTU",
+      "harga": 18000,
+      "is_ready": true,
+      "category": "Hobi & Koleksi",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992862547571118190/b8f66f29119c8c138dca715382fae631.jpg",
+      "deskripsi": "Hai kak, TIDAK ADA RESELLER KAMI YG MENJUAL KIN+KAND SHAMPO MICONAZOLE DI BAWAH HARGA KAMI YA KAK. Mhn untuk tidak keliru dan tidak menyalahkan jika salah beli d toko lain, lantaran kemasan dan packagingnya menyerupai kami. Terima kasih~"
+    },
+    {
+      "id": 24,
+      "kode": "K-24",
+      "nama": "TOFU SLIME BTS",
+      "harga": 9800,
+      "is_ready": true,
+      "category": "Hobi & Koleksi",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992862792879177728/5098c4a43955d92e9330fb8bdc70bc3b.jpg",
+      "deskripsi": "Apabila cup slime pacah itu bukan kesalahan kami melainkan expedisi. Kita sudah meminimalisir supaya tidak pecah ketika barang sampe di pembeli. Dengan Bubble wrap, kardus dan tulisan jangan dibanting. Tp kita tidak tahu kurirnya membanting barangnya atau tidak saat pengiriman. Jadi diharap maklum ya karena cup juga dr plastik dan bisa pecah. Tp Biasanya slime aman masi di dalam cup atau di bubble wrap."
+    },
+    {
+      "id": 25,
+      "kode": "K-25",
+      "nama": "CHOPPER MITOCHIBA CH200",
+      "harga": 639000,
+      "is_ready": true,
+      "category": "Elektronik",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992863804050374656/eefd48f680532eebe3dc426a69e79e28.jpg",
+      "deskripsi": "MITOCHIBA Food Magic Chopper CH-200 Blender 2L Alat Penggiling dan Penghalus Bumbu. Mendapatkan 2 mug berukuran 2 liter dengan 3 mata pisau & 700 ml dengan 2 mata pisau dan whisker untuk mengocok telur atau membuat adonan"
+    },
+    {
+      "id": 26,
+      "kode": "K-26",
+      "nama": "Xiaomi Mi TV Stick Android",
+      "harga": 570000,
+      "is_ready": true,
+      "category": "Elektronik",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992864128387534978/42719e886d438c7531834b6d80378704.jpg",
+      "deskripsi": "Ringan dan Portabel, Berat TV stick yang kurang dari 30g lebih ringan dari bola lampu dan ukurannya yang kecil mudah dimasukkan ke saku anda.Tidak perlu lagi mengetik. Tekan tombol mic remote anda untuk secara cepat menemukan apa yang ingin Anda lihat seperti mencari acara favorit, lagu atau sekedar menanyakan cuaca"
+    },
+    {
+      "id": 27,
+      "kode": "K-27",
+      "nama": "PHILIPS Setrika kering HD1173/80",
+      "harga": 298000,
+      "is_ready": true,
+      "category": "Elektronik",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992864283543207946/fc83dd30-5aaa-4c5a-9eff-10c22b89b8c5.jpg",
+      "deskripsi": "4 lapis tapak Ceramic, lebih tahan lama, anti-baret dan anti-lengket. Ujung setrika lebih runcing dengan alur kancing dan design yang ramping untuk memudahkan menjangkau area sulit seperti area lipatan dan juga sela-sela kancing."
+    },
+    {
+      "id": 28,
+      "kode": "K-28",
+      "nama": "Mitochiba CH 200 Food Chopper",
+      "harga": 625600,
+      "is_ready": true,
+      "category": "Elektronik",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992865039528763532/mitochiba-ch-100-vs-ch-200.jpg",
+      "deskripsi": "Food Chopper 2 Liter dan 700 ml, mampu menggiling daging hingga halus, bumbu--bumbu dapur, membuat aneka bakso hingga Mpasi Anak, sangat cocok untuk segala keperluan dapur."
+    },
+    {
+      "id": 29,
+      "kode": "K-29",
+      "nama": "HUAWEI Band 6 Smart Band",
+      "harga": 599000,
+      "is_ready": true,
+      "category": "Handphone & Tablet",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992866665870135396/19c69992211a6257a14dd51b8a334ab5.jpg",
+      "deskripsi": "HUAWEI Band 6 Smart Band | Pemantauan SpO2 24 Jam | 96 mode olahraga | Tampilan Layar penuh AMOLED 1.47 Inci | 2-Minggu Battery Life"
+    },
+    {
+      "id": 30,
+      "kode": "K-30",
+      "nama": "Jaket Sweater Hoodie Polos",
+      "harga": 89050,
+      "is_ready": true,
+      "category": "Fashion Pria",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992867804732719175/67ee6e0a5b231067fb3b56cfb1bf8727.jpg",
+      "deskripsi": "MAU TAMPIL KECE DENGAN HARGA OKE. MAU TAMPIL KEKINIAN TAPI TAKUT MAHAL. DON'T WORRY GUYS. DI KAMI KALIAN BISA TAMPIL KEREN GK PAKE MAHAL. Sweater Hoodie Dengan Bahan Fleece Tebal, Bahan Tidak Kasar, Lembur Di Pakai, Warna Aman Tidak Akan Luntur Saat Di Cuci, Tidak Mudah Berbulu, Cocok Buat Di Pakai Sehari Hari"
+    },
+    {
+      "id": 31,
+      "kode": "K-31",
+      "nama": "Vaseline Hand Cream Antibacterial Moisturizer",
+      "harga": 24200,
+      "is_ready": true,
+      "category": "Perawatan & Kecantikan",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992868571401158706/9f5ecad88afa0e0147d0b9c610531b56.jpg",
+      "deskripsi": "Formulasi Anti-bac Active (Benzethonium Chloride), produk antiseptic, lebih lembut pada kulit, untuk perlindungan 99.99% dari kuman dan teruji in vitro terakreditasi terhadap bakteri P.aeruginosa dan E.coli. Bahan ini lah yang memberikan kemampuan perlindungan\nsesuai dengan claim nya. Berdasarkan uji in vitro terakreditasi terhadap bakteri P.aeruginosa, E.coli"
+    },
+    {
+      "id": 32,
+      "kode": "K-32",
+      "nama": "Antis Pouch Jeruk Nipis",
+      "harga": 50600,
+      "is_ready": true,
+      "category": "Kesehatan",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992868674576863393/75033290e0a8e71b7c4c235befea4074.jpg",
+      "deskripsi": "Antis Pouch Jeruk Nipis Refill 300 ml isi 2 pcs adalah produk hand sanitizer beraroma jeruk nipis (pembersih tangan anti kuman tanpa air) berbasis alkohol yang efektif membunuh kuman dengan cepat, seperti kuman flu dan diare, dan juga praktis untuk digunakan dimana saja dan kapan saja."
+    },
+    {
+      "id": 33,
+      "kode": "K-33",
+      "nama": "LEGGING HW POLOS",
+      "harga": 33000,
+      "is_ready": true,
+      "category": "Fashion Wanita",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992868769795932340/f2bbca128ee787376f3444f2d9129672.jpg",
+      "deskripsi": "BARANG RIJEK ATAU KURANG DLL. JIKA TIDAK ADA VIDEO UNBOXING ,KAMI TIDAK TERIMA KOMPLAIN DENGAN ALASAN APAPUN !!!"
+    },
+    {
+      "id": 34,
+      "kode": "K-34",
+      "nama": "Helm Cargloss Original CFM",
+      "harga": 265000,
+      "is_ready": true,
+      "category": "Otomotif",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992868897088876686/9a68ce9394cae8f01bf1f7cc7ae7ccf0.jpg",
+      "deskripsi": "Merupakan helm half face berbahan ABS Thermoplastic yang didesain retro dengan cat berkualitas. Dilengkapi dengan PET tanpa visor yang dapat melindungi Anda dari sinar matahari, serta bagian dalam helm yang mudah dilepas dan dicuci untuk melindungi kepala secara optimal pada saat berkendara."
+    },
+    {
+      "id": 35,
+      "kode": "K-35",
+      "nama": "Manik Mote Huruf KUBUS HITAM",
+      "harga": 850,
+      "is_ready": true,
+      "category": "Hobi & Koleksi",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992868993973112912/11ce396e29c8749ad010ecdb217bb620.jpg",
+      "deskripsi": "Manik huruf warna HITAM dengan tulisan huruf PUTIH. Ukuran kurang lebih 6 mm x 6mm (menurut keterangan pabrik, tapi kalau ada miskalkulasi biasanya antara 5.7mm) silakan gunakan penggaris untuk mengira-ngira besar ukuran manik-manik ya. Bisa pilih huruf sendiri, tersedia di kolom variasi. Khusus untuk huruf vokal terdapat variasinya sendiri, akan tetapi untuk huruf konsonan/mati, silakan chat/diskusi terlebih dulu"
+    },
+    {
+      "id": 36,
+      "kode": "K-36",
+      "nama": "Bantal Nano Microfiber",
+      "harga": 94900,
+      "is_ready": true,
+      "category": "Perlengkapan Rumah",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992869138185850930/b6dc34508dc4d3f8a7be4e89519afaf0.jpg",
+      "deskripsi": "Microfiber (bulu angsa sintetis) adalah serat fiber dengan diameter serat < 1 Denier (sangat halus), TIDAK SAMA DENGAN Silikon. Exclusive launch PROMO ! Qty terbatas ya... dapatkan juga FREE sample bahan nano microfiber sebagai acuan yang betul, supaya semua konsumen paham perbedaan nano microfiber dibandingkan hollowfiber (biasa disebut dacron / silikon)."
+    },
+    {
+      "id": 37,
+      "kode": "K-37",
+      "nama": "Powerbank MOFIT M18",
+      "harga": 84500,
+      "is_ready": true,
+      "category": "Handphone & Tablet",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992869240854040687/b951ea95362da32da8f6128aa3b8fcae.jpg",
+      "deskripsi": "Smart LEDindicator shows battery level or charging status. Use a lithium polymer battery. The chip smart voltage identifies the automatically detected voltage.Built-in battery protection IC to prevent overcharge, overdischarge and short circuit . The use of aluminium alloy body, anodized, fine surface scrub process, plastic paint hit color design."
+    },
+    {
+      "id": 38,
+      "kode": "K-38",
+      "nama": "Erigo Coach Jacket Art Of Peace",
+      "harga": 153000,
+      "is_ready": true,
+      "category": "Fashion Pria",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992869380184608838/4dbeeef62bf308d0140b1615fbe5d27b.jpg",
+      "deskripsi": "Coach Jacket Erigo saat ini merupakan salah satu lini pakaian terbaik dan berkualitas tinggi di antara Local Brand Indonesia. Jaket berkerah dengan kancing jepret, saku fungsional, dan karet pada ujung lengan. Coach Jacket Erigo memiliki printed design yang unik pada bagian lengan dan punggung, dengan warna memukau siap menjadikanmu penuh semangat!"
+    },
+    {
+      "id": 39,
+      "kode": "K-39",
+      "nama": "Maybelline The Falsies Lash Lift Mascara",
+      "harga": 98700,
+      "is_ready": true,
+      "category": "Perawatan & Kecantikan",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992869491203653682/d2273e9361c57561dabba854c9c77d2b.jpg",
+      "deskripsi": "Ingin bulu mata tampak seperti sehabis lash lift, tapi tanpa lama dan tanpa ribet ke salon?. Maybelline The Falsies Lash Lift Mascara, merupakan Maskara waterproof yang dapat memanjangkan dan membuat bulu mata tampak terangkat maksimal hanya dalam 1 menit!"
+    },
+    {
+      "id": 40,
+      "kode": "K-40",
+      "nama": "Lock N Lock Air Fryer Rose Gold",
+      "harga": 699000,
+      "is_ready": true,
+      "category": "Elektronik",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992869603581624340/04aed14368134c4831f1e8267de6e2e2.jpg",
+      "deskripsi": "Kasitas yang cukup untuk anda dan kelauarga, muat hingga 1 ekor ayam full. Karena Anda sama sekali tidak menggunakan minyak atau menggunakan minyak dengan jumlah yang paling sedikit saat memasak, hasil memasak menjadi lebih sehat. Jadi, Anda tidak perlu lagi menyimpan terlalu banyak minyak goreng di rumah. kandungan air pada makanan akan menguap dengan sempurna saat dimasak."
+    },
+    {
+      "id": 41,
+      "kode": "K-41",
+      "nama": "Pepsodent Pasta Gigi",
+      "harga": 28600,
+      "is_ready": true,
+      "category": "Kesehatan",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992870519240151040/2ccfe23432e9c5fd5eb13e3d82807d6d.jpg",
+      "deskripsi": "Perlindungan Maksimal dari Gigi Berlubang, 10x Gigi Lebih Kuat. Pasta gigi Pepsodent perbaiki lubang kecil tak kasat mata sebelum jadi gigi berlubang & bentuk lapisan pelindung agar gigi lebih kuat. PEPSODENT Pasta Gigi Pencegah Gigi Berlubang Terbukti Secara Ilmiah, Toothpaste Pepsodent Pencegah Gigi Berlubang dengan mikro kalsium aktif dan pro-fluoride kompleks. Mengandung ekstrak mint alami."
+    },
+    {
+      "id": 42,
+      "kode": "K-42",
+      "nama": "Celana Pendek rumah Korea",
+      "harga": 69500,
+      "is_ready": true,
+      "category": "Fashion Wanita",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992874360585080852/e85c95612b97ca128166b3abb06c79c9.jpg",
+      "deskripsi": "Celana Pendek Gym pants / celana rumah, Bahan super halus dan lembut,Bagian pinggang ada karet, jadi bisa melar. Untuk mengajukan proses pengembalian atau penukaran barang, silahkan membaca dengan seksama Syarat & Ketentuan Pengembalian atau Penukaran Barang."
+    },
+    {
+      "id": 43,
+      "kode": "K-43",
+      "nama": "Sarung Tangan Motor",
+      "harga": 6600,
+      "is_ready": true,
+      "category": "Otomotif",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992874739041312788/Sarung_Tangan_Motor_Eiger_Riding_Corvette_001.jpg",
+      "deskripsi": "Sarung tangan ini sangan sangat cocok di gunakan di berbagai aktifitas sehari hari,  bisa di gunakan untuk melindungi paparan sinar matahari langsung saat berkendara motor dan bersepeda. Warna atau corak pada gambar tidak mengikat. Untuk pengiriman warna di kirim random acak sesuai setok"
+    },
+    {
+      "id": 44,
+      "kode": "K-44",
+      "nama": "KAIN FLANEL METERAN IMPOR TEBAL",
+      "harga": 11500,
+      "is_ready": true,
+      "category": "Hobi & Koleksi",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992876040483508305/fd8c6f07b696012a0b75d9b48127502c.jpg",
+      "deskripsi": "Bagi yg ingin menulis manual keterangan warnanya sekaligus kami menyediakan di variasi \"Tulis di chat/ket\" yg membuat kakak bisa menulis warna yg kakak inginkan berdasarkan kode warna dan warna nya. Yg tidak bisa diklik berarti kosong ya, diupdate ketika ready sayyy"
+    },
+    {
+      "id": 45,
+      "kode": "K-45",
+      "nama": "TABUNG GAS PORTABLE 230 Gram",
+      "harga": 26500,
+      "is_ready": true,
+      "category": "Perlengkapan Rumah",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992876328753823845/8ba7b8acf0ab7fdeb8290ceb3100e296.jpg",
+      "deskripsi": "HANYA DALAM PULAU JAWA PENGIRIMAN JNE, SICEPAT HANYA JABODETABEK,DI LUAR DAERAH TERSEBUT MENGGUNAKAN J&T. Hi-Cook Gas Cartridge ini dapat digunakan pada kompor portable ukuran biasa,\nukuran mini dan juga digunakan pada obor gas. Produk asli, bukan Refill / Isi\nUlang."
+    },
+    {
+      "id": 46,
+      "kode": "K-46",
+      "nama": "Anti Gores Kamera Xiaomi Poco X3 GT",
+      "harga": 12000,
+      "is_ready": true,
+      "category": "Handphone & Tablet",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992876474199703632/576c6864a969e219d71503a278240793.jpg",
+      "deskripsi": "Melindungi bagian lensa kamera smartphone anda agar tidak lecet/baret. tidak mengurangi fokus cahaya kamera karena menggunakan material semi tempered glass berkualitas."
+    },
+    {
+      "id": 47,
+      "kode": "K-47",
+      "nama": "SWEATER HOODIE JEMPER POLOS DISTRO",
+      "harga": 89000,
+      "is_ready": true,
+      "category": "Fashion Pria",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992876679267618867/81b4efdb743040fb1ec747e2fd261e6c.jpg",
+      "deskripsi": "SAHABAT HOODIE, DIKARENAKAN KOLOM PILIHAN WARNA YANG TERBATAS,\nuntuk warna yang tidak ada di pilihan bisa CHECK OUT di REQUEST WARNA LAIN. BAHAN: COTTON FLEECE berstandar kualitas distro yang dijamin tebal, adem, lembut, tidak luntur, dan dijamin nyaman banget buat dipake"
+    },
+    {
+      "id": 48,
+      "kode": "K-48",
+      "nama": "Logitech G102 Mouse Gaming",
+      "harga": 264000,
+      "is_ready": true,
+      "category": "Gaming",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992877240050266162/0b81ff9afb7f34d476fbe0691f7618a8.jpg",
+      "deskripsi": "Optimalkan waktu bermainmu dengan G102 gaming mouse yang dilengkapi dengan teknologi LIGHT SYNC, sensor kelas gaming, dan desain klasik 6 tombol. Ceriakan game-mu dan mejamu. Pilihlah dari pengaturan berdasarkan game dan media, serta animasi yang ceria, atau programlah pengaturanmu sendiri dari sekitar 16,8 juta warna."
+    },
+    {
+      "id": 49,
+      "kode": "K-49",
+      "nama": "Rexus Headset Gaming Thundervox HX9",
+      "harga": 253900,
+      "is_ready": true,
+      "category": "Gaming",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992878188604686446/5d01422fd2de78e324cf1a8f737bb7a2.jpg",
+      "deskripsi": "Gaming headset Rexus HX9 hadir dengan desain yang menawan, dengan bentuk yang ergonomis dan aksen LED RGB penuh gaya.  Headset ini memiliki karakteristik detil, staging yang luas, dan dilengkapi dengan mikrofon yang sensitif. Dengan menggunakan headset gaming Rexus HX9, Anda akan makin gaya saat bermain game."
+    },
+    {
+      "id": 50,
+      "kode": "K-50",
+      "nama": "Taffware ICE FAN 3 Universal",
+      "harga": 62900,
+      "is_ready": true,
+      "category": "Komputer & Laptop",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992878484663828541/76dfbc7240eb500a1868830d730d2df6.jpg",
+      "deskripsi": "Vacuum Cooler ini membantu laptop Anda untuk membuang panas dari dalam laptop sehingga laptop akan tetap dingin dan bekerja dengan lancar. Cooler ini juga memiliki knob untuk mengatur kecepatan kipas. Anda dapat mengatur kecepatan kipas dengan memutar knob yang terdapat pada bagian atas cooler. Ubah ke kecepatan maksimal untuk performa pendingin yang menakjubkan."
+    },
+    {
+      "id": 51,
+      "kode": "K-51",
+      "nama": "BACK SUPPORT KORSET",
+      "harga": 55000,
+      "is_ready": true,
+      "category": "Olahraga",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992879022142914600/93f835c2dfa650ed1539e38c2a87100f.jpg",
+      "deskripsi": "Ready size S, M, L, XL, XXL & XXXL ( LENGKAP DENGAN BOX NYA ). BACK SUPPORT KORSET PENYANGGA PUNGGUNG POWER MAGNETIC POSTUR CORRECTOR READY WARNA HITAM LENGKAP DENGAN DUS BOX NYA. Punya masalah dengan postur tubuh yang buruk? Ingin memperbaiki punggung yang bungkuk? Eits.. tidak usah pusing lagi karena power magnetic posture support kini telah hadir di TGR Aksesoris"
+    },
+    {
+      "id": 52,
+      "kode": "K-52",
+      "nama": "Mukena Parasut SakeeNa",
+      "harga": 67900,
+      "is_ready": true,
+      "category": "Fashion Muslim",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992879121766043688/11928808ec62ad40675d9aa7b3cd9dfa.jpg",
+      "deskripsi": "Produk original by SakeeNa ini memiliki size jumbo, desain simple gampang dibawa kemana aja dan bisa masuk tas kalian. Jadi gak usah khawatir lagi bepergian tanpa membawa peralatan Sholat. Parasut travelling SakeeNa dibuat memakai bahan parasut crinkle premium paling bagus diantara merek-merek bahan parasit lain, tebal, ringan, dan gak nerawang."
+    },
+    {
+      "id": 53,
+      "kode": "K-53",
+      "nama": "Dettol Sabun Tangan",
+      "harga": 19600,
+      "is_ready": true,
+      "category": "Perawatan & Kecantikan",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992880001638740089/309c9defd432bbbbf8aefef7132b2ff8.jpg",
+      "deskripsi": "Bersihkan tangan dengan praktis menggunakan cairan pencuci tangan dari Dettol yang ampuh membunuh bakteri dan kuman yang menempel. Aromanya yang menyegarkan dan sekaligus memberikan kelembutan pada tangan. 10x lebih efektif mampu melindungi dari kuman penyakit 10x lebih efektif dibandingkan sabun cuci tangan biasa, termasuk kuman penyebab diare. Gunakan setiap hari untuk melindungi tangan dari kuman dan bakteri penyebab diare. Cucilah tangan Anda dengan Dettol akan membantu menjaga keluarga Anda tetap sehat."
+    },
+    {
+      "id": 54,
+      "kode": "K-54",
+      "nama": "BODIMAX JOGGING MACHINE",
+      "harga": 2930000,
+      "is_ready": true,
+      "category": "Olahraga",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992880101085691914/3914ae1e2adf917de5de58a1eba0d83d.jpg",
+      "deskripsi": "Desain incline dengan 3 level ketinggian yg dapat diatur sesuai kebutuhan & kegunaan, Warna putih & jingga yang terkesan minimalis & clean, Dilengkapi dgn roda, memudahkan pengguna u/ memindahkan posisi treadmill sesuai kebutuhan, Material yg kuat sehingga mampu menopang beban hingga 100 kg"
+    },
+    {
+      "id": 55,
+      "kode": "K-55",
+      "nama": "MASKER DUCKBILL 3D BIRU",
+      "harga": 30000,
+      "is_ready": true,
+      "category": "Kesehatan",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992880235722838056/750677e06a2efc35dcb0e700e14a3b47.jpg",
+      "deskripsi": "Masker duckbill 3d biru tua isi 50 pcs, Kardus sewaktu waktu bisa berubah isi masih tetap sama, untuk produk sesuai dengan gambar silahkan di order."
+    },
+    {
+      "id": 56,
+      "kode": "K-56",
+      "nama": "Celana Legging Hamil",
+      "harga": 129000,
+      "is_ready": true,
+      "category": "Fashion Wanita",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992880663734792192/8bb53835023e1723a63d113cb53fd293.jpg",
+      "deskripsi": "Aktivitas jadi lebih nyaman dengan Mama's Choice Activewear Maternity Legging! Didesain khusus dengan waistband eksklusif yang dapat menyokong perut lebih sempurna. Versi terbaru! Dilengkapi dengan pengait untuk mengatur ukuran perut Mama,Bahan yang lembut, tebal dan berkualitas, dengan efek sejuk saat digunakan."
+    },
+    {
+      "id": 57,
+      "kode": "K-57",
+      "nama": "Mybamus Legging Wudhu",
+      "harga": 49900,
+      "is_ready": true,
+      "category": "Fashion Muslim",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992880796429975583/4cb145b874735a9cd5cf6c154c5a3e04.jpg",
+      "deskripsi": "Kelebihan berbelanja di Official Shop kami, Barang dijamin branded dengan label kami sendiri, Desain baju kami exclusive tidak dijual bebas, Semua barang kami ready stok, langsung di order aja ya kak"
+    },
+    {
+      "id": 58,
+      "kode": "K-58",
+      "nama": "Kandang Kucing Pet cargo Tas travel",
+      "harga": 154000,
+      "is_ready": true,
+      "category": "Hobi & Koleksi",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992880952684593212/1629a91da0df5469e2cc62f739aef269.jpg",
+      "deskripsi": "Kandang tenteng Pet Voyageur merupakan solusi yang tepat untuk Anda untuk kebutuhan transportasi hewan peliharaan Anda. Di desain dengan kokoh sehingga Anda tidak perlu khawatir akan keamanan hewan peliharaan Anda ketika sedang dibawa pergi. Terbuat dari plastik yang kuat dan higienis tanpa harus khawatir dengan karat. Hewan akan lebih tenang di dalamnya.\nPintu plastik yang kuat dan anti karat akan membuat hewanmu merasa lebih tenang, jika pintu sampai patah bisa ganti baru!"
+    },
+    {
+      "id": 59,
+      "kode": "K-59",
+      "nama": "Kova Desk Bike Sepeda Statis",
+      "harga": 249000,
+      "is_ready": true,
+      "category": "Olahraga",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992881056741081138/3a4b96d7b1d316fe83336f542329fb1f.jpg",
+      "deskripsi": "Kakek, nenek atau orang tua ada yang mengalami stroke atau pengapuran sendi?, Atau salah satu anggota keluarga mengalami patah tulang?, Ingin memulihkan kondisi dengan terapi di rumah?, Tak ada ruginya mencoba melatih kaki atau tangan dengan KOVA Desk Bike yang efektif memulihkan pasca patah tulang, stroke atau pengapuran sendi"
+    },
+    {
+      "id": 60,
+      "kode": "K-60",
+      "nama": "Agnes Gamis Putih Wanita",
+      "harga": 187250,
+      "is_ready": true,
+      "category": "Fashion Muslim",
+      "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992881313487011980/b0462e3a5c2c8a5fe9a26c8d205fc933.jpg",
+      "deskripsi": "Baju Muslim Wanita/ Busana Muslim / Baju Gamis Putih / Gamis Wanita / Gamis Putih / Gamis Brukat 80241, BAHAN SEMUA MENGGUNAKAN FURING JADI TIDAK TRANSPARANT, READY STOCK SEMUA UKURAN STANDARD LANGSUNG DI ORDER AJA YA"
+    }
+  ],
+  "keranjangs": [
+    {
+      "jumlah": 1,
+      "total_harga": 14569000,
+      "products": {
+        "id": 5,
+        "kode": "K-05",
+        "nama": "ASUS TUF GAMING F15 FX506LH-I765B8T-O",
+        "harga": 14569000,
+        "is_ready": true,
+        "category": "Komputer & Laptop",
+        "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992704669510021170/c72e588a9d51ed72bdb056f8579744c6.jpg",
+        "deskripsi": "ASUS TUF GAMING F15 FX506LH-I765B8T-O[Intel Core i5-11400H / RTX3050 4GB / 16GB / 512GB SSD / 15.6inch / Win11 / OHS]. - Kelengkapan Paket Laptop, kartu garansi, buku panduan, adaptor,Berat 2.3 kg, Dimensi Produk 35.9 x 25.6 x 2.28 ~ 2.43 cm (WxDxH), Baterai 48WHrs, 3S1P, 3-cell Li-ion ,Interface 1 x COMBO audio jack 2 x Type-A USB 3.2 (Gen 1) 1 x Type-C USB 3.2 (Gen 2) with display support 1 x Type-A USB2.0 1 x RJ45 LAN jack for LAN insert 1 x HDMI, HDMI support 2.0b 1 x AC adapter plug .Wireless Protocol Type Integrated Wi-Fi 6 (802.11 ax)"
+      },
+      "id": 1
+    },
+    {
+      "jumlah": 1,
+      "total_harga": 139000,
+      "products": {
+        "id": 7,
+        "kode": "K-07",
+        "nama": "Onikuma X20 RGB Gaming Headset",
+        "harga": 139000,
+        "is_ready": true,
+        "category": "Gaming",
+        "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992705102429302805/2356595eea06931fa659daf02bdf0cc8.jpg",
+        "deskripsi": "Penutup telinga besar yang dibungkus penuh, pas nyaman, mengisolasi kebisingan lingkungan dan meningkatkan pengalaman bermain. Desain balok kepala suspensi sayap terbang dan fit adaptif. Ini mengadopsi mikrofon omnidirectional, kepala mikrofon cahaya biru es dan batang ketangguhan tinggi untuk secara akurat mengambil suara dan menolak kebisingan saat ini, sehingga membuat hambatan komunikasi gratis."
+      },
+      "id": 2
+    }
+  ],
+  "pesanans": [
+    {
+      "nama": "pt",
+      "alamat": "medan",
+      "products": [
+        {
+          "jumlah": 1,
+          "total_harga": 64900,
+          "products": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "IE.DEMODE Aviana Celana Panjang Kerja",
+            "harga": 64900,
+            "category": "Fashion Wanita",
+            "is_ready": true,
+            "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992747106873905213/c74498b9ca33218caec3bae3d02c154a.jpg",
+            "deskripsi": "Celana panjang wanita dengan cutting ankle-length dan loose straight. Celana wanita ini memiliki design buckle disamping depan dan pita untuk tampilan manis. Terdapat kantong di bagian samping kiri dan kanan untuk membantu dalam beraktifitas."
+          },
+          "id": 2
+        }
+      ],
+      "id": 1
+    },
+    {
+      "nama": "pt",
+      "alamat": "marelan",
+      "products": [
+        {
+          "jumlah": 1,
+          "total_harga": 14569000,
+          "products": {
+            "id": 5,
+            "kode": "K-05",
+            "nama": "ASUS TUF GAMING F15 FX506LH-I765B8T-O",
+            "harga": 14569000,
+            "is_ready": true,
+            "category": "Komputer & Laptop",
+            "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992704669510021170/c72e588a9d51ed72bdb056f8579744c6.jpg",
+            "deskripsi": "ASUS TUF GAMING F15 FX506LH-I765B8T-O[Intel Core i5-11400H / RTX3050 4GB / 16GB / 512GB SSD / 15.6inch / Win11 / OHS]. - Kelengkapan Paket Laptop, kartu garansi, buku panduan, adaptor,Berat 2.3 kg, Dimensi Produk 35.9 x 25.6 x 2.28 ~ 2.43 cm (WxDxH), Baterai 48WHrs, 3S1P, 3-cell Li-ion ,Interface 1 x COMBO audio jack 2 x Type-A USB 3.2 (Gen 1) 1 x Type-C USB 3.2 (Gen 2) with display support 1 x Type-A USB2.0 1 x RJ45 LAN jack for LAN insert 1 x HDMI, HDMI support 2.0b 1 x AC adapter plug .Wireless Protocol Type Integrated Wi-Fi 6 (802.11 ax)"
+          },
+          "id": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "nama": "edy",
+      "alamat": "medan",
+      "products": [
+        {
+          "jumlah": 1,
+          "total_harga": 20699000,
+          "products": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Apple MacBook Pro 13 inch 8GB",
+            "harga": 20699000,
+            "is_ready": true,
+            "category": "Komputer & Laptop",
+            "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992703084218306600/71YRSVXhgQL._SL1500_.jpg",
+            "deskripsi": "Chip Apple M1 mendefinisikan ulang MacBook Pro 13 inci. Dilengkapi CPU 8-core yang mampu menangani berbagai tahapan kerja yang kompleks dalam fotografi, pemrograman, pengeditan video, dan lainnya, dengan mudah. GPU 8-core luar biasa yang melibas tugas kaya grafis dengan mudah dan membuat game terasa sangat lancar. Neural Engine 16-core yang canggih untuk tenaga lebih besar bagi pembelajaran mesin di aplikasi favorit Anda. Memori terintegrasi super cepat untuk performa yang lancar. Dan kekuatan baterai paling tahan lama yang pernah ada di Mac, hingga 20 jam.2 Ini adalah laptop pro Apple yang paling populer. Performa jauh lebih baik, jauh lebih pro."
+          },
+          "id": 4
+        }
+      ],
+      "id": 3
+    },
+    {
+      "nama": "sgr",
+      "alamat": "eg",
+      "products": [
+        {
+          "jumlah": 1,
+          "total_harga": 139000,
+          "products": {
+            "id": 7,
+            "kode": "K-07",
+            "nama": "Onikuma X20 RGB Gaming Headset",
+            "harga": 139000,
+            "is_ready": true,
+            "category": "Gaming",
+            "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992705102429302805/2356595eea06931fa659daf02bdf0cc8.jpg",
+            "deskripsi": "Penutup telinga besar yang dibungkus penuh, pas nyaman, mengisolasi kebisingan lingkungan dan meningkatkan pengalaman bermain. Desain balok kepala suspensi sayap terbang dan fit adaptif. Ini mengadopsi mikrofon omnidirectional, kepala mikrofon cahaya biru es dan batang ketangguhan tinggi untuk secara akurat mengambil suara dan menolak kebisingan saat ini, sehingga membuat hambatan komunikasi gratis."
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 64900,
+          "products": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "IE.DEMODE Aviana Celana Panjang Kerja",
+            "harga": 64900,
+            "category": "Fashion Wanita",
+            "is_ready": true,
+            "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992747106873905213/c74498b9ca33218caec3bae3d02c154a.jpg",
+            "deskripsi": "Celana panjang wanita dengan cutting ankle-length dan loose straight. Celana wanita ini memiliki design buckle disamping depan dan pita untuk tampilan manis. Terdapat kantong di bagian samping kiri dan kanan untuk membantu dalam beraktifitas."
+          },
+          "id": 2
+        }
+      ],
+      "id": 4
+    },
+    {
+      "nama": "pt",
+      "alamat": "medan",
+      "products": [
+        {
+          "jumlah": 1,
+          "total_harga": 299000,
+          "products": {
+            "id": 6,
+            "kode": "K-06",
+            "nama": "dbE GM210 7.1 Virtual Surround Gaming Headphone",
+            "harga": 299000,
+            "is_ready": true,
+            "category": "Gaming",
+            "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992704905313800232/785dda0c-a586-4cfa-b271-8ceba7088571.jpg",
+            "deskripsi": "Setelah bertahun-tahun kami mengembangkan gaming headphone, kami sadar bahwa kenyamanan adalah syarat utama gaming headphone yang baik karena gaming headphone ini sering sekali digunakan selama berjam-jam tanpa henti. Sebagai jawaban dari kebutuhan costumer akan gaming headset yang nyaman dan bersuara bagus, kami mengembangkan dbE GM210. dbE GM210 adalah gaming headset yang sangat nyaman digunakan, total berat bagian headsetnya hanya 293 gram. Clamping force GM210 juga sudah disesuaikan sehingga cukup nyaman digunakan bagi user yang berkacamata. Karakter suara GM210 ini netral dengan bass tight dan soundstage luas. Kami memilih menggunakan sound signature ini untuk membuat user GM210 bisa merasakan suasana game tanpa ada satu frekuensipun yang berlebihan termasuk bass."
+          },
+          "id": 1
+        }
+      ],
+      "id": 5
+    },
+    {
+      "nama": "jhb",
+      "alamat": "ig\n",
+      "products": [
+        {
+          "jumlah": 1,
+          "total_harga": 88000,
+          "products": {
+            "id": 8,
+            "kode": "K-08",
+            "nama": "FNGEEN 5055 Jam Tangan Pria",
+            "harga": 88000,
+            "is_ready": true,
+            "category": "Fashion Pria",
+            "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992705317286723684/bce996c53bb689bcb0147eb59a1eaf69.jpg",
+            "deskripsi": "Harap Dibaca Sebelum Membeli Utk Menghindari Kesalahpahaman. 1.Jika anda khawatir paket yang anda terima tidak sesuai dengan yang anda pesan, silahkan buat video unpacking setelah paket diterima. 2.Mohon cek informasi alamat dan varian produk serta jumlah yang dipesan sebelum checkout, kami tidak menerima perubahan nama, nomor, alamat atau barang setelah pengiriman. Mohon mengertila"
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 64900,
+          "products": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "IE.DEMODE Aviana Celana Panjang Kerja",
+            "harga": 64900,
+            "category": "Fashion Wanita",
+            "is_ready": true,
+            "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992747106873905213/c74498b9ca33218caec3bae3d02c154a.jpg",
+            "deskripsi": "Celana panjang wanita dengan cutting ankle-length dan loose straight. Celana wanita ini memiliki design buckle disamping depan dan pita untuk tampilan manis. Terdapat kantong di bagian samping kiri dan kanan untuk membantu dalam beraktifitas."
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 649000,
+          "products": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Monocozzi Lucid Translucent Hard Shell MacBook Air 13",
+            "harga": 649000,
+            "is_ready": true,
+            "category": "Komputer & Laptop",
+            "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992704145704353792/d6d1ca02a5042d130dc9abab2c5fe2d3.jpg",
+            "deskripsi": "Monocozzi Lucid Translucent Hard Shell MacBook Air 13 Touch Bar - White. Spec : Macbook Air 13. Drop Protection"
+          },
+          "id": 3
+        }
+      ],
+      "id": 6
+    },
+    {
+      "nama": "jn",
+      "alamat": "g",
+      "products": [
+        {
+          "jumlah": 1,
+          "total_harga": 649000,
+          "products": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Monocozzi Lucid Translucent Hard Shell MacBook Air 13",
+            "harga": 649000,
+            "is_ready": true,
+            "category": "Komputer & Laptop",
+            "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992704145704353792/d6d1ca02a5042d130dc9abab2c5fe2d3.jpg",
+            "deskripsi": "Monocozzi Lucid Translucent Hard Shell MacBook Air 13 Touch Bar - White. Spec : Macbook Air 13. Drop Protection"
+          },
+          "id": 3
+        }
+      ],
+      "id": 7
+    },
+    {
+      "nama": "uso",
+      "alamat": "binjai",
+      "products": [
+        {
+          "jumlah": 1,
+          "total_harga": 299000,
+          "products": {
+            "id": 6,
+            "kode": "K-06",
+            "nama": "dbE GM210 7.1 Virtual Surround Gaming Headphone",
+            "harga": 299000,
+            "is_ready": true,
+            "category": "Gaming",
+            "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992704905313800232/785dda0c-a586-4cfa-b271-8ceba7088571.jpg",
+            "deskripsi": "Setelah bertahun-tahun kami mengembangkan gaming headphone, kami sadar bahwa kenyamanan adalah syarat utama gaming headphone yang baik karena gaming headphone ini sering sekali digunakan selama berjam-jam tanpa henti. Sebagai jawaban dari kebutuhan costumer akan gaming headset yang nyaman dan bersuara bagus, kami mengembangkan dbE GM210. dbE GM210 adalah gaming headset yang sangat nyaman digunakan, total berat bagian headsetnya hanya 293 gram. Clamping force GM210 juga sudah disesuaikan sehingga cukup nyaman digunakan bagi user yang berkacamata. Karakter suara GM210 ini netral dengan bass tight dan soundstage luas. Kami memilih menggunakan sound signature ini untuk membuat user GM210 bisa merasakan suasana game tanpa ada satu frekuensipun yang berlebihan termasuk bass."
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 4200000,
+          "products": {
+            "id": 10,
+            "kode": "K-10",
+            "nama": "VGA ASUS Dual Geforce GTX1650 4GB",
+            "harga": 4200000,
+            "is_ready": true,
+            "category": "Komputer & Laptop",
+            "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992705911627989072/62d74f9c-027b-4619-b068-9ba5ef93672b.jpg",
+            "deskripsi": "Seluruh produk yang kami jual merupakan 100 baru, garansi resmi dan kepuasan Anda adalah prioritas kamiASUS Dual GeForce GTX 1650 OC edition 4GB GDDR5 is your ticket into PC gaming. The ASUS Dual GeForce GTX 1650 is built with the breakthrough graphics performance of the award-winning NVIDIA Turing architecture to supercharge your favorite games. Get game ready with performance thats twice as fast as the GeForce GTX 950 and up to 70x faster than the GTX 1050. GeForce Experience lets you capture and share videos, screenshots, and livestreams with friends, keep your GeForce drivers up to date, and easily optimize your in-game settings. IP5X dust resistance offers protection from particle ingress for better durability. Auto-Extreme Technology uses automation to enhance reliability. 144-Hour Validation Program puts cards through a series of stringent tests to ensure compatibility with the latest games. GPU Tweak II provides intuitive performance tweaking, thermal controls, and system monitoring."
+          },
+          "id": 2
+        }
+      ],
+      "id": 8
+    },
+    {
+      "nama": "tod",
+      "alamat": "tod",
+      "products": [
+        {
+          "jumlah": 1,
+          "total_harga": 139000,
+          "products": {
+            "id": 7,
+            "kode": "K-07",
+            "nama": "Onikuma X20 RGB Gaming Headset",
+            "harga": 139000,
+            "is_ready": true,
+            "category": "Gaming",
+            "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992705102429302805/2356595eea06931fa659daf02bdf0cc8.jpg",
+            "deskripsi": "Penutup telinga besar yang dibungkus penuh, pas nyaman, mengisolasi kebisingan lingkungan dan meningkatkan pengalaman bermain. Desain balok kepala suspensi sayap terbang dan fit adaptif. Ini mengadopsi mikrofon omnidirectional, kepala mikrofon cahaya biru es dan batang ketangguhan tinggi untuk secara akurat mengambil suara dan menolak kebisingan saat ini, sehingga membuat hambatan komunikasi gratis."
+          },
+          "id": 1
+        }
+      ],
+      "id": 9
+    },
+    {
+      "nama": "noname",
+      "alamat": "medan",
+      "products": [
+        {
+          "jumlah": 1,
+          "total_harga": 4200000,
+          "products": {
+            "id": 10,
+            "kode": "K-10",
+            "nama": "VGA ASUS Dual Geforce GTX1650 4GB",
+            "harga": 4200000,
+            "is_ready": true,
+            "category": "Komputer & Laptop",
+            "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992705911627989072/62d74f9c-027b-4619-b068-9ba5ef93672b.jpg",
+            "deskripsi": "Seluruh produk yang kami jual merupakan 100 baru, garansi resmi dan kepuasan Anda adalah prioritas kamiASUS Dual GeForce GTX 1650 OC edition 4GB GDDR5 is your ticket into PC gaming. The ASUS Dual GeForce GTX 1650 is built with the breakthrough graphics performance of the award-winning NVIDIA Turing architecture to supercharge your favorite games. Get game ready with performance thats twice as fast as the GeForce GTX 950 and up to 70x faster than the GTX 1050. GeForce Experience lets you capture and share videos, screenshots, and livestreams with friends, keep your GeForce drivers up to date, and easily optimize your in-game settings. IP5X dust resistance offers protection from particle ingress for better durability. Auto-Extreme Technology uses automation to enhance reliability. 144-Hour Validation Program puts cards through a series of stringent tests to ensure compatibility with the latest games. GPU Tweak II provides intuitive performance tweaking, thermal controls, and system monitoring."
+          },
+          "id": 1
+        }
+      ],
+      "id": 10
+    }
+  ]
+}
