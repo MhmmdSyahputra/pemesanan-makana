@@ -8,7 +8,7 @@ export default class Hero extends Component {
         <div className="row">
           <div className="col m-auto text-light">
             <h1 className='fs-1'><strong>Habiskan Duit Anda disini</strong> </h1>
-            <h2 className='text-bold'>Shope Athena</h2>
+            <h2 className='text-bold'>Shapee Athena</h2>
             <h3 className='text-bold fs-6'>Produk yang kami jual berkualitas</h3>
           </div>
           <div className="col">

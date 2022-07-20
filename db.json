@@ -698,6 +698,21 @@
         "deskripsi": "Penutup telinga besar yang dibungkus penuh, pas nyaman, mengisolasi kebisingan lingkungan dan meningkatkan pengalaman bermain. Desain balok kepala suspensi sayap terbang dan fit adaptif. Ini mengadopsi mikrofon omnidirectional, kepala mikrofon cahaya biru es dan batang ketangguhan tinggi untuk secara akurat mengambil suara dan menolak kebisingan saat ini, sehingga membuat hambatan komunikasi gratis."
       },
       "id": 2
+    },
+    {
+      "jumlah": 1,
+      "total_harga": 649000,
+      "products": {
+        "id": 3,
+        "kode": "K-03",
+        "nama": "Monocozzi Lucid Translucent Hard Shell MacBook Air 13",
+        "harga": 649000,
+        "is_ready": true,
+        "category": "Komputer & Laptop",
+        "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992704145704353792/d6d1ca02a5042d130dc9abab2c5fe2d3.jpg",
+        "deskripsi": "Monocozzi Lucid Translucent Hard Shell MacBook Air 13 Touch Bar - White. Spec : Macbook Air 13. Drop Protection"
+      },
+      "id": 3
     }
   ],
   "pesanans": [
