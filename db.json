@@ -713,6 +713,21 @@
         "deskripsi": "Monocozzi Lucid Translucent Hard Shell MacBook Air 13 Touch Bar - White. Spec : Macbook Air 13. Drop Protection"
       },
       "id": 3
+    },
+    {
+      "jumlah": 1,
+      "total_harga": 249000,
+      "products": {
+        "id": 59,
+        "kode": "K-59",
+        "nama": "Kova Desk Bike Sepeda Statis",
+        "harga": 249000,
+        "is_ready": true,
+        "category": "Olahraga",
+        "gambar": "https://cdn.discordapp.com/attachments/972198684550897696/992881056741081138/3a4b96d7b1d316fe83336f542329fb1f.jpg",
+        "deskripsi": "Kakek, nenek atau orang tua ada yang mengalami stroke atau pengapuran sendi?, Atau salah satu anggota keluarga mengalami patah tulang?, Ingin memulihkan kondisi dengan terapi di rumah?, Tak ada ruginya mencoba melatih kaki atau tangan dengan KOVA Desk Bike yang efektif memulihkan pasca patah tulang, stroke atau pengapuran sendi"
+      },
+      "id": 4
     }
   ],
   "pesanans": [

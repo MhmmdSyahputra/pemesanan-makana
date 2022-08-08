@@ -62,12 +62,12 @@ export default class Keranjang extends Component {
 
             axios
                 // masukan data keranjang ke pesanan
-                .post("http://localhost:3000/pesanans/", pesanan)
+                .post(API_URL + "pesanans/", pesanan)
                 // jika berhasil maka hapus item yg ada dikeranjang nya
                 .then(() => {
                     value.map((keranjangs) => {
                         return axios
-                            .delete("http://localhost:3000/keranjangs/" + keranjangs.id)
+                            .delete(API_URL + "keranjangs/" + keranjangs.id)
                             .then(() => {
                                 swal({
                                     title: "Barang berhasil di pesan",
